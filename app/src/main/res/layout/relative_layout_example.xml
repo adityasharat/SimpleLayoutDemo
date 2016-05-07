@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Center"
+        android:textColor="#323232"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_above="@id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/star_filled"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/star_filled"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/center"
+        android:src="@drawable/star_filled"
+        tools:ignore="RtlHardcoded"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/center"
+        android:src="@drawable/star_filled"
+        tools:ignore="RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm Right"
+        android:layout_alignParentRight="true"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm Left"
+        android:layout_alignParentLeft="true"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm here"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+</RelativeLayout>
