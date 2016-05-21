@@ -1,4 +1,4 @@
-package com.jsvoid.simpledemo;
+package com.jsvoid.simplelayoutdemo;
 
 import org.junit.Test;
 

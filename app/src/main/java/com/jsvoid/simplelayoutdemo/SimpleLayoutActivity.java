@@ -1,4 +1,4 @@
-package com.jsvoid.simpledemo;
+package com.jsvoid.simplelayoutdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
